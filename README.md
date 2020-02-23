@@ -1,7 +1,7 @@
 # hanaspeak
 SSDSKSJHSKSSHKJJMSHJSKA
 
-## Usage
+## JDNSSHSKKJJKSHJ
 ```bash
 $ python hana.py "small glass jars"
 SSHHHSSKJDAJDASHKKJJKJDASKSSHSSHSHKLSKSSASSH
