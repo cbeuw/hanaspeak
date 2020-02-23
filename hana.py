@@ -118,9 +118,9 @@ def build_tree() -> EncodingTree:
         with EncodingTree() as H2:
             H['H'] = H2
 
-            H['S'] = EncodingTree('m')
-            H['J'] = EncodingTree('f')
-            H['K'] = EncodingTree('y')
+            H2['S'] = EncodingTree('m')
+            H2['J'] = EncodingTree('f')
+            H2['K'] = EncodingTree('y')
 
     with EncodingTree() as K:
         root['K'] = K
