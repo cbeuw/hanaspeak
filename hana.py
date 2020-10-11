@@ -102,12 +102,12 @@ def build_tree() -> Node:
             J['D'] = Leaf('i')
             J['H'] = Leaf('n')
 
-        with Node() as S2:
-            S['S'] = S2
+        with Node() as M:
+            S['M'] = M
 
-            S2['H'] = Leaf('s')
-            S2['A'] = Leaf('r')
-            S2['D'] = Leaf('h')
+            M['H'] = Leaf('s')
+            M['A'] = Leaf('r')
+            M['D'] = Leaf('h')
 
     with Node() as J:
         root['J'] = J
@@ -124,7 +124,7 @@ def build_tree() -> Node:
     with Node() as H:
         root['H'] = H
 
-        H['K'] = Leaf('c')
+        H['M'] = Leaf('c')
 
         with Node() as H2:
             H['H'] = H2
